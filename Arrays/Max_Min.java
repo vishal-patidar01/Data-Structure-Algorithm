@@ -1,3 +1,6 @@
+
+import java.util.*;
+
 public class Max_Min {
 
     // maximum element of the array
