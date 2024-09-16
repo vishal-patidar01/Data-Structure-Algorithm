@@ -176,7 +176,77 @@ public class Firstpattern {
     }
 
     //Hollow Square Pattern
+    public static void thirteenPattern(int n) {
+        for(int i=1; i<=n; i++) {
+            for(int j=1; j<=n; j++) {
+                if(i == 1 || i == n || j == 1 || j == n) {
+                    System.out.print("*"+" ");
+                }else {
+                    System.out.print("  ");
+                }
+            }
+            System.out.println();
+        }
+    }
 
+    // Hollow Triangle
+
+    public static void fourteenPattern(int n) {
+        for(int i=1; i<=n; i++) {
+            for(int j=1; j<=i; j++) {
+                if(i == n || j == 1 || j == i) {
+                    System.out.print("*"+" ");
+                }else {
+                    System.out.print("  ");
+                }
+            }
+            System.out.println();
+        }
+    }
+
+    public static void fifteenPattern(int n) {
+        for(int i=1; i<=n; i++) {
+            for(int j=1; j<=i; j++) {
+                if((i+j)%2 != 0 ) {
+                    System.out.print("0"+" ");
+                }else {
+                    System.out.print(""+" ");
+                }
+            }
+            System.out.println();
+        }
+    }
+
+    // Hollow Diamond Pattern
+
+    public static void sixteenPattern(int n) {
+        for(int i=0; i<=n; i++) {
+            for(int j=1; j<=n-i; j++) {
+                System.out.print(" ");
+            }
+            for(int j=1; j<=i; j++) {
+                if(j == 1 || j == i) {
+                    System.out.print("*"+" ");
+                }else {
+                    System.out.print("  ");
+                }
+            }
+            System.out.println();
+        }
+        for(int i=n-1; i>=1; i--) {
+            for(int j=1; j<=n-i; j++) {
+                System.out.print(" ");
+            }
+            for(int j=1; j<=i; j++) {
+                if(j == 1 || j == i) {
+                    System.out.print("*"+" ");
+                }else {
+                    System.out.print("  ");
+                }
+            }
+            System.out.println();
+        }
+    }
 
 
     public static void main(String[] args) {
@@ -192,7 +262,11 @@ public class Firstpattern {
        //ninePattern(8);
        //tenPattern(10);
       // elevenpattern(10);
-      twelvePattern(10);
+      //twelvePattern(10);
+      //thirteenPattern(5);
+      //fourteenPattern(5);
+      //fifteenPattern(5);
+      sixteenPattern(5);
     }
 
 }
