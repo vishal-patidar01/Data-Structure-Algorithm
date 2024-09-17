@@ -7,7 +7,7 @@ public class SecondLarNum {
                 lagest = arr[i];
             }
         }
-        Array.sort()
+        
     }
     public static void main(String[] args) {
         int arr[] = {2, 5, 3, 7, 5, 8};
