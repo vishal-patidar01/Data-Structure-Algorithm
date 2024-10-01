@@ -1,3 +1,5 @@
+package Pattern;
+
 public class Firstpattern {
     public static void rightAngleTriangle(int n) {
         for(int i=1; i<=n; i++) {

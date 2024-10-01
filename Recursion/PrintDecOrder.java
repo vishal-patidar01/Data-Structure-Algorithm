@@ -1,4 +1,4 @@
-//package Recursion;
+package Recursion;
 
 public class PrintDecOrder {
     public static void printDecOrder(int n) {
